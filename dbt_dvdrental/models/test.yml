@@ -1,0 +1,12 @@
+models:
+  - name : intermediate_consumption
+    columns :
+      - name : intermediate_consumption."CustomerName"
+        tests :
+          - not_null
+
+  - name : stg_customer
+    columns :
+      - name : customer_id
+        tests :
+          - unique

@@ -1,0 +1,19 @@
+sources:
+   - name : DvdRent
+     database : dvdrental
+     schema : public
+     tables :
+      - name : category
+        identifier : category
+      - name : customer
+        identifier : customer
+      - name : inventory
+        identifier : inventory
+      - name : payment
+        identifier : payment
+      - name : rental
+        identifier : rental
+      - name : staff
+        identifier : staff
+      - name : film_category
+        identifier : film_category
